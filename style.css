@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo-1 {
+  margin-left: 25px;
+  width: 76px;
+  height: 42.75px;
+  flex-shrink: 0;
+}
+.nav-text {
+  display: flex;
+  column-gap: 24px;
+  color: #2e2e2e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.logo-2 {
+  margin-left: 25px;
+
+  padding: 6px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  background: #d01c28;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*section-2*/
+
+.secton-2 {
+  margin-left: 10%;
+}
+.text2 h1:nth-of-type(1) {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 90px; /* 94.444% */
+  width: 595px;
+  height: 306px;
+}
+.text2 p {
+  width: 404px;
+  height: 127px;
+  color: var(--GRAY, #5a5959);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -27px;
+}
+.logo3 {
+  display: flex;
+  column-gap: 15px;
+  margin-top: -22px;
+}
+.logo3 img:nth-of-type(1) {
+  display: flex;
+  padding: 6px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  background: #d01c28;
+  width: auto 150px;
+  height: auto 41px;
+  font-size: 10px;
+  color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.logo3 img:nth-of-type(2) {
+    color: var(--GRAY, #5A5959);
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+width: auto 150px;
+  height: auto 41px;
+border: 1px solid black;
+display: flex;
+padding: 6px 16px;
+align-items: flex-start;
+gap: 10px;}
+.image2{
+    display: flex;
+    justify-content:end;
+    margin-top: -40%;
+ 
+
+box-shadow: 32px 32px 24px 0px rgba(0, 0, 0, 0.30);
+
+}
+
